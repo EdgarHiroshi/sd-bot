@@ -29,7 +29,7 @@ class Manage(commands.Cog):
     
     @commands.command()
     async def ajuda(self, ctx):
-        await ctx.send("Comandos: ajuda, calc, raiz.")
+        await ctx.send("Comandos: ajuda, calc, raiz, localizacao.")
 
 def setup(bot):
     bot.add_cog(Manage(bot))
